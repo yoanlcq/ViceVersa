@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vice Versa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="dysc_menu_solo">Solo</string>
+    <string name="dysc_menu_multi">Multijoueur</string>
+    <string name="dysc_menu_dimensions">Dimensions</string>
+    <string name="dysc_menu_nbcoups">Nb coups</string>
+    <string name="dysc_menu_nbgrilles">Nb grilles</string>
+    <string name="dysc_menu_jouer">Jouer !</string>
+    <string name="dysc_menu_chrono">Chrono</string>
+    <string-array name="dysc_menu_chrono_choix">
+        <item>Aucun</item>
+        <item>Noob</item>
+        <item>Casual</item>
+        <item>Fou</item>
+        <item>Impossibru</item>
+    </string-array>
+
+
+</resources>
