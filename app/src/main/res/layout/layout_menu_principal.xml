@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/latias_bg"
+    android:gravity="center"
+    android:baselineAligned="false">
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:layout_gravity="center"
+    android:padding="20sp"
+    android:textAlignment="center">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView4"
+            android:alpha="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView5"
+            android:alpha="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="42"
+            android:id="@+id/textView6"
+            android:alpha="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dysc_menu_dimensions"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:textColor="#ff000000" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_dimensions_slider"
+            android:layout_column="1"
+            android:max="8"
+            android:splitTrack="false"
+            android:progress="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_dimensions_indicateur"
+            android:textColor="#ff000000" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dysc_menu_nbcoups"
+            android:id="@+id/textView2"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_nbcoups_slider"
+            android:layout_column="1"
+            android:max="3"
+            android:progress="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_nbcoups_indicateur"
+            android:textColor="#ff000000" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dysc_menu_nbgrilles"
+            android:id="@+id/textView3"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_nbgrilles_slider"
+            android:layout_column="1"
+            android:max="19"
+            android:splitTrack="false"
+            android:progress="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_nbgrilles_indicateur"
+            android:textColor="#ff000000" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dysc_menu_chrono"
+            android:id="@+id/textView"
+            android:textColor="#ff000000"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dysc_menu_chrono_liste"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown"
+            android:nestedScrollingEnabled="false" />
+
+    </TableRow>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dysc_menu_jouer"
+        android:id="@+id/dysc_menu_jouer"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:alpha="1"
+        android:elegantTextHeight="true"
+        android:typeface="sans"
+        android:onClick="jouer" />
+
+</TableLayout>
+
+</LinearLayout>
